@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+        @vite('resources/js/app.js')
         <!-- Styles -->
         @livewireStyles
     </head>
