@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('user_id');
             $table->string('name');
             $table->string('content');
+            $table->string('slug');
             $table->timestamps();
         });
     }
